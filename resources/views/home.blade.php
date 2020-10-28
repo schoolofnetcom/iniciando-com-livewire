@@ -9,9 +9,11 @@
 
 <body>
 
-    @livewire('hello-world')
+    {{-- @livewire('hello-world') --}}
 
-    @livewire('data-binding')
+    {{-- @livewire('data-binding') --}}
+
+    {{-- @livewire('actions') --}}
 
     @livewireScripts
 
