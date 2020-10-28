@@ -15,6 +15,8 @@
 
     {{-- @livewire('actions') --}}
 
+    @livewire('life-cycle-hooks')
+
     @livewireScripts
 
 </body>
