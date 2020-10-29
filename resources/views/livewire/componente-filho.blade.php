@@ -1,4 +1,4 @@
 <div>
-    <p>Olá {{ $user->name }}</p>
-    <button wire:click='$refresh'></button>>
+    {{ $user->name }} : {{ now() }}
+    <button wire:click='$refresh'>Refresh</button>
 </div>
