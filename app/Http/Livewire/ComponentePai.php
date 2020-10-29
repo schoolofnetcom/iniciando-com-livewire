@@ -9,9 +9,15 @@ class ComponentePai extends Component
 {
     public $users = ['Thiago', 'Wesley', 'Luiz'];
 
+    protected $listeners = ['geral' => '$refresh'];
+
     public function mount()
     {
         $this->users = User::all();
+    }
+
+    public function atualizaFilho() {
+        $this->emit('atualizaFilho');
     }
 
     public function removeUser($user_id) {
